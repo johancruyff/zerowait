@@ -1,0 +1,282 @@
+ion-content.homepage, ion-content.loginpage,ion-content.signuppage{
+	top:0px !important;
+}
+ion-content.mappage, ion-content.profilepage,ion-content.settingpage,ion-content.reservationpage,ion-content.listpage,ion-content.detailpage{
+	top:50px !important;
+}
+
+ion-view.homepage ion-content,ion-view.mappage ion-content,ion-view.listpage ion-content, ion-view.signuppage ion-content{
+	background-color: #262141 !important;
+}
+
+.searchbox{
+	width: 400px;
+}
+
+.maplist {
+	float:right;
+	margin: 2px auto;
+	height: 40px;
+	border-color: transparent;
+	background-color:  transparent;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.custom-header{
+	height:50px !important;
+	background-color: #626536;
+	padding: 5px;
+	position: absolute;
+	width: 100%;
+	z-index:1100;
+}
+
+.platform-ios .custom-header{
+	height:70px !important;
+	padding-top:20px !important;
+}
+
+.custom-header p{
+	margin:0;
+	line-height: 40px;
+	color:white;
+	font-size: 20px !important;
+	float:left;
+	font-weight: 400;
+}
+
+.custom-header img.mark{
+	float:left;
+	margin-top:7px;
+	margin-bottom: 7px;
+	margin-right:15px;
+}
+
+.custom-header.map .searchbox, .custom-header.list .searchbox{
+	border-radius: 5px;
+	position: relative;
+	height: 30px;
+	width: 300px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	z-index: 999;
+}
+
+.custom-header.map a,.custom-header.list a{
+	display: block;
+	float:right;
+	margin-right:-160px;
+	margin-top:12px;
+	z-index: 1000;
+	width:16px;
+	height: 16px;
+}
+
+
+.custom-header.map a img,.custom-header.list a img{
+	margin-right: 3px;
+}
+
+.tabs{
+	border-bottom:none !important;
+}
+.tab-item{
+	border:none !important;
+	color:rgba(0,0,0,0.4) !important;
+}
+.tab-item-active{
+	background-color: #f1a30b !important;
+	color:white !important;
+	border:none !important;
+	margin-top:0 !important;
+}
+
+.custom-header.list .searchbox{
+	background-color: white; !important;
+	border:1px solid rgba(0,0,0,0.3);
+}
+
+.custom-header.reservation a{
+	float:right;
+	padding:3px 7px;
+	color:rgba(255,255,255,0.5);
+	display: block;
+	border: 1px solid rgba(255,255,255,0.5);
+	height: 40px;
+	margin-left:10px;
+	border-radius:8px;
+}
+
+.res-list li{
+	margin-bottom: 10px;
+	padding:15px 5px;
+	padding-left:10px;
+}
+
+.res-list li img{
+	float:left;
+	opacity: 0.8 !important;
+	margin-right:5px;
+}
+
+
+.res-list li span.time{
+	position: absolute;
+	top:0;
+	right:0;
+	color:white;
+	font-size:10px;
+	background-color: #f1a30b;
+}
+
+.res-list li div.info{
+	
+}
+
+.res-list li div.info p.title{
+	color:white;
+	font-weight:600;
+	font-size:20px;
+}
+
+.res-list li div.info p{
+	color:white;
+	font-weight: 400;
+	font-size:12px;
+}
+
+.custom-header.detail a{	
+	color:white;
+	float:left;	
+}
+
+.custom-header.detail a i{
+	font-size:20px;
+	line-height: 40px;
+}
+
+.custom-header.detail h4{
+	color:white;
+	text-align: center;
+}
+
+.discount{
+	position: absolute;
+	top:10px;
+	right: 10px;
+	background-color: #f1a30b;
+	color:white;
+	padding:0 5px;
+}
+
+.res-info{
+	margin-top:-65px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.res-info img{
+	border:2px solid white;
+	margin-left:10px;
+	float: left;
+	margin-right: 5px;
+}
+
+.res-info .text .title{
+   color:white;
+   font-size:18px;
+   margin-bottom: 0;
+ }
+
+ .res-info .text .location, .res-info .text .tel{
+ 	margin-bottom: 0;
+ 	color:white;
+ 	font-weight: 300;
+ 	font-size:13px;
+ }
+
+.res-info .text .openhour{
+	margin-bottom: 0;
+	color:black;
+	font-size:12px;
+	font-weight: 500;
+}
+
+.block{
+	margin:5px 10px;
+	border:1px solid rgba(0,0,0,0.2);
+	padding:5px;
+	border-radius: 5px;
+}
+.block .title{
+	font-size:15px !important;
+	font-weight: 600;
+	color:black !important;
+}
+
+.block .content-block{
+	font-size:12px;
+	font-weight: 400;
+	color:rgba(0,0,0,0.3);
+	margin-bottom: 0;
+}
+
+.photo.block{
+	padding: 0;
+}
+
+.photo.block .title{
+	padding:5px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.photo.block .gallery li{
+	display:inline-block;
+	width:49%;
+	padding:5px;
+}
+
+.photo.block .gallery li img{
+	margin:0;
+	width: 100%;
+	border:none;
+}
+
+.block.persion-nums input{
+	width: 100%;
+	border:1px solid rgba(0,0,0,0.2);
+	margin-bottom: 10px;
+}
+
+.reserve-btn{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.header{
+	background-color: rgba(0,0,0,0.1);
+}
+
+.reservation-table a{
+	font-size:18px;
+}
+
+.profile-info{
+	width: 100%;
+}
+
+.profile-info .photo{
+	width:110px;
+	float:left;
+	margin-right:15px;
+}
+
+.profile-info .info h3{
+	margin-bottom: 0;
+}
+.profile-info .info p{
+	margin-bottom: 0;
+}
